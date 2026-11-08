@@ -387,6 +387,22 @@ header {
     gap: 30px;
 }
 
+.proyecto-card a {
+    display: inline-block;
+    color: #ed78b8;
+    border: 1px solid #ed78b8;
+    padding: 8px 16px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.proyecto-card a:hover {
+    background-color: #ed78b8;
+    color: #fff;
+}
+
 .proyecto-card {
     background-color: var(--panel);
     border: 1px solid #493654;
@@ -638,6 +654,25 @@ header {
     color: var(--texto);
     line-height: 1.9;
     margin-bottom: 30px;
+}
+
+.email-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #ed78b8;
+    color: white;
+    border: 1px solid #ed78b8;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.email-button:hover {
+    background-color: transparent;
+    color: #ed78b8;
+    transform: translateY(-3px);
 }
 
 .frase-final {
